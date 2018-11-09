@@ -1,0 +1,21 @@
+@charset "utf-8";
+.img {
+	float: left;
+	width: 100vw;
+	z-index: 10;
+}
+.square {
+	float: left;
+	width: 295px;
+	height: 317px;
+	background-color: rgba(240,216,0,0.48);
+	position: absolute;
+	margin-left: 67.5vw;
+	margin-top: 39vw;
+	
+
+}
+
+body {
+	position: relative;
+}

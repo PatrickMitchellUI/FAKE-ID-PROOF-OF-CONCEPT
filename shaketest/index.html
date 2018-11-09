@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+<meta charset="UTF-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Shake.js</title>
+<script type="text/javascript" src="shake.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="licencey">
+  <div class="square">
+    <div class="square oneicansee"> </div>
+    <img class="img" src="thisisme.png"></div>
+</div>
+<script type="text/javascript">
+window.onload = function() {
+
+    //create a new instance of shake.js.
+    var myShakeEvent = new Shake({
+        threshold: 15
+    });
+
+    // start listening to device motion
+    myShakeEvent.start();
+
+    // register a shake event
+    window.addEventListener('shake', shakeEventDidOccur, false);
+
+    //shake event callback
+    function shakeEventDidOccur () {
+
+        //put your own code here etc.
+		alert('that ran!');
+};
+</script>
+</body>
+</html>

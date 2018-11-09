@@ -1,0 +1,25 @@
+@charset "utf-8";
+.img {
+	margin-left: -35vw;
+	margin-top: -19vw;
+	float: left;
+	width: 100vw;
+	z-index: 10;
+}
+.square {
+	float: left;
+	width: 108px;
+	height: 150px;
+	background-color: rgba(255,179,0,0.50);  
+	position: absolute;
+	margin-left: 116px;
+	margin-top: 55px;
+	border-radius: 10px;
+}
+.oneicansee{
+	visibility: hidden;
+}
+
+.licencey {
+	position: relative;
+}
